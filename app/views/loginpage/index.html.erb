@@ -192,7 +192,7 @@ button {
 
 	<form action="/action_page.php">
 	  <div class="imgcontainer">
-	    <img src="KCLLogo.png" alt="Avatar" class="avatar">
+	    <img src="/app/assets/images/KCLLogo.png" alt="Avatar" class="avatar">
 	  </div>
 
 	  <div class="container">
@@ -203,7 +203,6 @@ button {
 	    <input type="password" placeholder="Enter Password" name="psw" required>
 	        
 	    <button type="submit">Login</button>
-	    <%= button_to   'submit', { :action => "submitQuestion", :controller => "logins"} %>
 
 	    <button class = "Signupbtn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign up</button>
 	    <input type="checkbox" checked="checked"> Remember me
